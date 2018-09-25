@@ -1,0 +1,12 @@
+package:
+  name: cuda
+  version: 9.2
+
+build:
+  number: 0
+  track_features:
+    - cuda
+
+extra:
+  recipe-maintainers:
+    - v-turin
