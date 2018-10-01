@@ -1,11 +1,11 @@
 package:
-  name: cuda
-  version: 9.2
+  name: feature_cuda
+  version: {{ cuda_version }}
 
 build:
   number: 0
   track_features:
-    - cuda
+    - cuda_{{ cuda }}
 
 extra:
   recipe-maintainers:
