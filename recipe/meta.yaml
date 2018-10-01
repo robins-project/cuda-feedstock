@@ -1,11 +1,12 @@
 package:
   name: feature_cuda
-  version: {{ cuda_version }}
+  version: {{ feature_cuda }}
 
 build:
   number: 0
+  string: {{ cuda_impl }}
   track_features:
-    - cuda_{{ cuda }}
+    - feature_cuda_{{ cuda_impl }}
 
 extra:
   recipe-maintainers:
