@@ -8,6 +8,10 @@ build:
   track_features:
     - feature_cuda_{{ cuda_impl }}
 
+test:
+    requires:
+      - python 3.*
+
 extra:
   recipe-maintainers:
     - v-turin
